@@ -16,7 +16,6 @@
 				</div>
 			</div>
 			<hr />
-			<% if @projects %>
 				<% @projects.each do |project| %>
 					<div class="content border-bottom pb4">
 						<p class="title is-4">
@@ -28,7 +27,6 @@
 						<p class="f6">Created by: <%= project.user.name %></p>
 					</div>
 				<% end %>
-			<% end %>
 		</div>
 		<div class="column border-right ph4">
 			<div class="level">
@@ -44,7 +42,6 @@
 				</div>
 			</div>
 			<hr />
-			<% if @teams %>
 				<% @teams.each do |team| %>
 					<div class="content border-bottom pb4">
 						<p class="title is-4">
@@ -54,7 +51,6 @@
 						<span class="f6"><%= safe_join(team.users.map { |user| user.name }, ', ') %></span>
 					</div>
 				<% end %>
-			<% end %>
 		</div>
 
 		<div class="column ph4">
