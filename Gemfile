@@ -29,11 +29,11 @@ gem 'simple_form', '~> 4.1'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
-gem 'wysiwyg-rails'
 gem 'public_activity', '~> 1.6', '>= 1.6.3'
 gem 'figaro'
 gem 'font-awesome-sass', '~> 5.9'
 gem 'foreman'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
