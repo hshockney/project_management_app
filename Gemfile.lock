@@ -168,7 +168,8 @@ GEM
       i18n (>= 0.5.0)
       railties (>= 3.0.0)
     public_suffix (3.1.1)
-    puma (3.12.1)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     rack (2.0.7)
     rack-proxy (0.6.5)
       rack
@@ -268,8 +269,6 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
-    wysiwyg-rails (3.0.3)
-      railties (>= 3.2, < 6.0)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.1.9)
@@ -295,7 +294,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   public_activity (~> 1.6, >= 1.6.3)
-  puma (~> 3.11)
+  puma (~> 4.3)
   rails (~> 6.0.0.rc2)
   sass-rails (~> 5)
   selenium-webdriver
@@ -307,7 +306,6 @@ DEPENDENCIES
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
-  wysiwyg-rails
 
 RUBY VERSION
    ruby 2.6.3p62
